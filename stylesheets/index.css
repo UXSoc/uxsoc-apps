@@ -6,25 +6,25 @@ body {
   font-family: Roboto, sans-serif;
   /* font-family: Proxima Nova, sans-serif; */
   margin: 0px;
-  background: #47474A;
+  background: #47474a;
 }
 
 /* font */
 @font-face {
   font-family: Proxima Nova;
-  src: url('../font/ProximaNova-Regular.otf');
+  src: url("../font/ProximaNova-Regular.otf");
   font-weight: normal;
 }
 
 @font-face {
   font-family: Proxima Nova;
-  src: url('../font/Proxima-Nova-Thin.otf');
+  src: url("../font/Proxima-Nova-Thin.otf");
   font-weight: 300;
 }
 
 @font-face {
   font-family: Proxima Nova;
-  src: url('../font/Proxima-Nova-Semibold.otf');
+  src: url("../font/Proxima-Nova-Semibold.otf");
   font-weight: bold;
 }
 
@@ -99,7 +99,7 @@ body {
 } */
 
 .footer {
-  background: #4F4F4F;
+  background: #4f4f4f;
   color: white;
   padding: 16px 0;
   text-align: center;
@@ -140,12 +140,8 @@ main .main__spiel {
 }
 
 .main__spiel strong {
-  color: #29A4FD;
+  color: #29a4fd;
   font-weight: bold;
-}
-
-.main__spiel--purple {
-  color: #8400c7;
 }
 
 section .title {
@@ -171,7 +167,6 @@ main .title {
   margin: 60px 0;
 }
 
-
 /* Application Schedule */
 .schedule .title {
   font-weight: bold;
@@ -192,7 +187,6 @@ main .title {
   font-size: 20px;
   text-align: center;
   letter-spacing: 0.05em;
-
 }
 
 .schedule table tr th:first-of-type {
@@ -200,9 +194,8 @@ main .title {
 }
 
 .schedule table tr th:last-of-type {
-  color: #29A4FD;
+  color: #29a4fd;
 }
-
 
 /* Style the tab */
 .dept-tabs-flow {
@@ -224,8 +217,8 @@ main .title {
   margin-bottom: 10px;
   letter-spacing: 0.05em;
   text-align: center;
-  border: 1px solid #2BA2F8;
-  color: #2BA2F8;
+  border: 1px solid #2ba2f8;
+  color: #2ba2f8;
   padding: 10px 15px;
   border-radius: 5px;
   text-decoration: none;
@@ -239,7 +232,7 @@ main .title {
 /* Change background color of buttons on hover */
 .dept-tabs button:hover {
   cursor: pointer;
-  background-color: #2BA2F8;
+  background-color: #2ba2f8;
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -248,7 +241,7 @@ main .title {
 /* Create an active/current tablink class */
 .dept-tabs button.active {
   cursor: pointer;
-  background-color: #2BA2F8;
+  background-color: #2ba2f8;
   color: white;
   font-weight: bold;
 }
@@ -309,20 +302,19 @@ li {
   line-height: 30px;
   letter-spacing: 0.05em;
   color: #747474;
-  background: #FBFBFB;
+  background: #fbfbfb;
   margin: 50px auto 30px auto;
 }
 
-
 .bold-text {
-  font-weight: bold
+  font-weight: bold;
 }
 
 .department-main-header {
   font-size: 30px;
   line-height: 50px;
   letter-spacing: 0.05em;
-  color: #4F4F4F;
+  color: #4f4f4f;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -337,8 +329,8 @@ li {
   font-size: 15px;
   line-height: 30px;
   letter-spacing: 0.05em;
-  color: #4F4F4F;
-  border-bottom: 3px solid #F2A81F;
+  color: #4f4f4f;
+  border-bottom: 3px solid #f2a81f;
   margin-top: 10px;
   font-weight: bold;
 }
@@ -347,7 +339,7 @@ li {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.05em;
-  color: #9B51E0;
+  color: #9b51e0;
   font-weight: bold;
   margin-top: 20px;
 }
@@ -364,7 +356,7 @@ li {
 .department-info-card {
   margin: 0 auto 0 0;
   display: inline-block;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   box-sizing: border-box;
@@ -417,7 +409,6 @@ padding: 0px 10px;
     margin: 0;
     font-size: 16px;
   }
-
 
   .header {
     position: fixed;
@@ -485,7 +476,6 @@ padding: 0px 10px;
   .department-info-card {
     padding: 20px;
   }
-
 }
 
 /* utility */
@@ -515,7 +505,6 @@ em {
   padding: 16px 30px;
 }
 
-
 .modal-body p {
   font-family: Roboto;
   font-style: normal;
@@ -526,5 +515,5 @@ em {
 }
 
 .modal-body strong {
-  color: #2BA2F8
+  color: #2ba2f8;
 }
