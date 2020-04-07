@@ -9,7 +9,7 @@ body {
   background: #47474a;
 }
 
-/* font */
+/* font
 @font-face {
   font-family: Proxima Nova;
   src: url("../font/ProximaNova-Regular.otf");
@@ -26,7 +26,7 @@ body {
   font-family: Proxima Nova;
   src: url("../font/Proxima-Nova-Semibold.otf");
   font-weight: bold;
-}
+} */
 
 /* HEADER */
 .header {
